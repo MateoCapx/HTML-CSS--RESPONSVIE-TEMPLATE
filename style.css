@@ -1,6 +1,7 @@
 body{
     font-family: Georgia;
     margin: 0;
+   
 }
 
 .wrapper{
@@ -11,13 +12,14 @@ body{
 }
 
 h1.logo{
-    background-image: url(images/logo.png);
+    background-image: url(    );
     background-repeat: no-repeat;
     width: 100px;
     text-indent: -10000px;
     float: left;
 }
 
+/* Navigation Style Start */
 header nav{
     float: right;
 }
@@ -39,15 +41,15 @@ header nav li a{
     color: #333;
     font-size: 18px;
 }
+/* Navigation Style end */
+
 
 #main-banner, #main-banner img{
     width: 100%;
 }
 
-#main-banner img{
-    border-bottom: 6px solid #f34949;
-}
 
+/* Main Menu Style end */
 #home-menu h2{
     background-image: url(images/menu-head.png);
     background-repeat: no-repeat;
@@ -59,11 +61,31 @@ header nav li a{
     top: -4px;
 }
 
+/* style text above banner image */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: whitesmoke;
+    text-align: center;
+
+    margin-top: 100px;
+}
+
+.centered h1{
+    font-size: 70px;
+    letter-spacing: 0.1em;
+    font-weight: bold;
+}
+
+
 #home-menu ul{
     padding: 0;
     list-style-type: none;
 }
 
+/* Adds space to bottom of main menu */
 #home-menu ul:after{
     content: "";
     clear: both;
@@ -80,6 +102,7 @@ header nav li a{
 #home-menu li:nth-child(odd){
     margin: 20px 8% 20px 0;
 }
+
 
 .dish{
     float: left;
@@ -113,6 +136,7 @@ header nav li a{
     top: -8px;
 }
 
+/* Adds styles to bottom section with images, description & price */
 #featured{
     margin-top: 100px;
 }
@@ -149,7 +173,10 @@ header nav li a{
     display: block;
     clear: both;
 }
+/* Ends styles to bottom section with images, description & price */
 
+
+/* Footer Style Start */
 footer{
     background: #3b3b3b;
     margin-top: 100px;
@@ -179,3 +206,45 @@ footer a{
     color: #eee;
     text-decoration: none;
 }
+
+footer img{
+    width: 80px;
+
+}
+/* Footer Style End */
+
+/* Media Queries */
+
+  /* Laptop Screens */
+  @media screen and (min-width: 1040px) {
+  
+  }
+
+
+  @media screen and (max-width: 992px) {
+    
+
+
+  }
+
+
+   /* Tablets  */
+   @media screen and (max-width: 766px) {    /* If the Width of the screen is SMALLER than 980px  */
+    body {
+        background-color: yellow;
+      }   
+    
+
+   }
+
+   /* (min-width: 480px)  is applied when the screen is smaller than 480px */
+   /* moblie screens " min-width" <-->  viewport  changes when screen is larger than 480 pixels */
+   @media screen and (max-width: 480px) {
+    body {
+      background-color: lightgreen;
+    }
+  }
+
+
+
+
