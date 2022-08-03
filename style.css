@@ -215,7 +215,7 @@ footer img{
 
 /* Media Queries */
 
-  /* Laptop Screens */
+  /* Laptop Screens
   @media screen and (min-width: 1040px) {
   
   }
@@ -225,11 +225,11 @@ footer img{
     
 
 
-  }
+  } */
 
 
    /* Tablets  */
-   @media screen and (max-width: 766px) {    /* If the Width of the screen is SMALLER than 980px  */
+   @media screen and (min-width: 766px) {    /* If the Width of the screen is SMALLER than 980px  */
     body {
         background-color: yellow;
       }   
@@ -239,11 +239,13 @@ footer img{
 
    /* (min-width: 480px)  is applied when the screen is smaller than 480px */
    /* moblie screens " min-width" <-->  viewport  changes when screen is larger than 480 pixels */
-   @media screen and (max-width: 480px) {
+   /* @media screen and (min-width: 480px) {
     body {
       background-color: lightgreen;
     }
-  }
+
+    
+  } */
 
 
 
