@@ -44,6 +44,54 @@ header nav li a{
 /* Navigation Style end */
 
 
+/* Section 1 Styles */
+
+#Section1{
+    padding-top: 50px;
+}
+#Section1 img{
+width: 100%;
+}
+
+#Section1 a{
+    text-decoration: none;
+    color: gold;
+    font-size: 18px;
+    width: 224px;
+    padding-top: 20px;
+
+}
+
+/* Opening Hours Section Styles */
+#openingHoursDiv{
+    margin-bottom: 50px;
+    margin-top: 60px;
+}
+
+
+/* Our Team Section Styles */
+#ourTeamSection, .mainText{
+    text-align: center;
+    margin-top: 80px;
+}
+
+#ourTeamSection, p{
+    font-size: 16px;
+    line-height: 24px;
+    padding-bottom: 10px;
+}
+
+ .chefImages img{
+    width: 50%;
+    border-radius: 100%;
+    
+}
+.chefImages{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
 #main-banner, #main-banner img{
     width: 100%;
 }
