@@ -19,6 +19,37 @@ h1.logo{
     float: left;
 }
 
+
+
+/* Social Meida links  */
+.nav-social{
+    float: right;
+    width: 100%;
+    position: relative;
+    transition: all 600ms linear;
+    top: 10px;
+}
+
+.nav-social ul {
+    float: right;
+    list-style: none;
+}
+
+.nav-social li a {
+    color: black;
+    font-size: 14px;
+  
+}
+
+.nav-social li {
+    float: left;
+    padding: 10px;
+}
+/* Social Meida links ENDS */
+
+
+
+
 /* Navigation Style Start */
 header nav{
     float: right;
@@ -41,6 +72,62 @@ header nav li a{
     color: #333;
     font-size: 18px;
 }
+
+#navBarSection{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    opacity: 80%;
+    
+  }
+
+  
+
+
+  /* Slideshow container */
+  .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+ 
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+
+
+
+  
+
+
+
+
+
+  
+
+.hello{
+    background-color: green;
+}
+
 /* Navigation Style end */
 
 
@@ -90,6 +177,20 @@ width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
+
+/* Weekly Deals Section */
+.weeklyDealsSection h1{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.weeklyDeals {
+text-align: center;
+}
+
+.weeklyDeals span {
+    text-align: left;
+    }
 
 
 #main-banner, #main-banner img{
