@@ -150,7 +150,18 @@ width: 100%;
 #openingHoursDiv{
     margin-bottom: 50px;
     margin-top: 60px;
+    color: white;
 }
+
+#openingHoursTex, h2{
+    color: white;
+    z-index: 1;
+}
+
+
+/* Ending for Opening Hours Section Styles */
+
+
 
 /* Styles for parallax */
 .parallax{
@@ -179,17 +190,17 @@ width: 100%;
      background-position: center;
      background-repeat: no-repeat;
      background-size: cover;
+     background-color: black;
     }
 
 .parallaxVideo video{
     width: 200%;
     height: 700px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    top:0;
+  background-color: black;
+  /* object-fit: cover; */
+  object-position: center;
 
-z-index: -999;
 }
 
 
