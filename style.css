@@ -83,23 +83,20 @@ header nav li a{
   }
 
   
-
+/* Start of Styles for carousel section */
 
   /* Slideshow container */
   .slideshow-container {
-    max-width: 1000px;
+    max-width: 100px;
     position: relative;
     margin: auto;
+  
+
   }
   
   /* Hide the images by default */
   .mySlides {
     display: none;
-  }
-  
- 
-  .active, .dot:hover {
-    background-color: #717171;
   }
   
   /* Fading animation */
@@ -113,7 +110,7 @@ header nav li a{
     to {opacity: 1}
   }
 
-
+/* End of Styles for carousel section */
 
 
   
@@ -155,6 +152,50 @@ width: 100%;
     margin-top: 60px;
 }
 
+/* Styles for parallax */
+.parallax{
+    background-image: url('img/WeeklyMenu.jpg');
+     /* Set a specific height */
+     min-height: 100vh;
+    
+     /* Create the parallax scrolling effect */
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+    }
+    
+
+    
+/* Styles for parallax */
+.parallaxVideo{
+    /* background-image: url('img/Restaurant\ -\ 1192.mp4'); */
+     /* Set a specific height */
+     
+     width: 50%;
+    
+     /* Create the parallax scrolling effect */
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+    }
+
+.parallaxVideo video{
+    width: 200%;
+    height: 700px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+z-index: -999;
+}
+
+
+
+
+
 
 /* Our Team Section Styles */
 #ourTeamSection, .mainText{
@@ -186,6 +227,10 @@ width: 100%;
 
 .weeklyDeals {
 text-align: center;
+font-size: large;
+font-style: italic;
+color: black;
+font-weight: 900;
 }
 
 .weeklyDeals span {
@@ -364,37 +409,20 @@ footer img{
 
 /* Media Queries */
 
-  /* Laptop Screens
-  @media screen and (min-width: 1040px) {
-  
-  }
+/* Extra small devices (phones, 600px and down)
+@media only screen and (max-width: 600px) {...}
 
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {...} */
 
-  @media screen and (max-width: 992px) {
-    
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) {...} */
 
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {...} */
 
-  } */
-
-
-   /* Tablets  */
-   @media screen and (min-width: 766px) {    /* If the Width of the screen is SMALLER than 980px  */
-    body {
-        background-color: yellow;
-      }   
-    
-
-   }
-
-   /* (min-width: 480px)  is applied when the screen is smaller than 480px */
-   /* moblie screens " min-width" <-->  viewport  changes when screen is larger than 480 pixels */
-   /* @media screen and (min-width: 480px) {
-    body {
-      background-color: lightgreen;
-    }
-
-    
-  } */
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {...} */ 
 
 
 
