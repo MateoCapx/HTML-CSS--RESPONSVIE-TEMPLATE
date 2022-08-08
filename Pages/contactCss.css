@@ -68,10 +68,11 @@ h1.logo{
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        color: whitesmoke;
+        color: white;
         text-align: center;
-    
-        margin-top: 100px;
+       
+        background-color: #000;
+        margin-top: 50px;
     }
 
 /* Styles more main image end */
@@ -112,40 +113,8 @@ header nav li a{
     opacity: 80%;
     
   }
-
+/* Navigation Style Ends */
   
-#textExample{
-
-   height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-      
-}
-
-
-  #textExample h1{
-   
-    font-size: 6em;
-    text-align: center;
-    color: white;
-    z-index: 1;
- mix-blend-mode: overlay;
-
-
-    
-  }
-
-   video{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-   
-}
-
 
   
 
@@ -153,11 +122,55 @@ header nav li a{
 
 /* Styles for contact form contact Form */
 
-
 #contactForm{
     text-align: center;
 margin-top: 100px;
+
 }
+
+#contactForm input[type="text"] {
+ 
+    width: 50%;
+    margin-bottom: 20px;
+    font-size: 13px;
+    height: 50px;
+    position: relative;
+    z-index: 20;
+    padding-left: 18px;
+    color: #000;
+    border: 0;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    background: #f9f9f9;
+    font-weight: 400;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+
+#contactForm #Message{
+    padding-top: 20px;
+  padding-bottom: 100px;
+
+}
+/* End Styles for contact form contact Form */
+
+
+
+ /* .parallaxMap{
+    background-image: url(' '); */
+     /* Set a specific height */
+     /* min-height: 100vh;  */
+    
+     /* Create the parallax scrolling effect */
+     /* background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+    } */
+
+
+
 
 
 
