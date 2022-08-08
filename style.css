@@ -1,7 +1,10 @@
+*{
+    box-sizing: border-box;
+}
 body{
     font-family: Georgia;
     margin: 0;
-   
+   padding: 0;
 }
 
 .wrapper{
@@ -146,15 +149,15 @@ width: 100%;
 
 }
 
-/* Opening Hours Section Styles */
-#openingHoursDiv{
+/* Opening Hours Section Styles  */
+ #openingHoursDiv{
     margin-bottom: 50px;
     margin-top: 60px;
-    color: white;
+    color: black;
 }
 
 #openingHoursTex, h2{
-    color: white;
+    color: black;
     z-index: 1;
 }
 
@@ -197,9 +200,11 @@ width: 100%;
     width: 200%;
     height: 700px;
     top:0;
+    left: 0;
   background-color: black;
   /* object-fit: cover; */
   object-position: center;
+  
 
 }
 
