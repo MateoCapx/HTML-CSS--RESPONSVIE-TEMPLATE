@@ -4,20 +4,86 @@ body{
    
 }
 
-.wrapper{
+/* Navigation Style Start */
+.navbar{
     width: 100%;
     max-width: 1180px;
     padding: 0 10px;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-h1.logo{
-    background-image: url(    );
-    background-repeat: no-repeat;
-    width: 100px;
-    text-indent: -10000px;
-    float: left;
+
+.brand-title {
+    font-size: 1.5rem;
+    margin: .5rem;
 }
+
+
+#navBarSection{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    opacity: 80%;
+    
+  }
+
+
+.navbar-links {
+    height: 100%;
+}
+
+.navbar-links ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-links li {
+    list-style: none;
+    cursor: pointer;
+}
+
+.navbar-links li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.navbar-links li:hover {
+    background-color: #555;
+}
+
+
+/* Styles for toggle button  */
+
+.toggle-button{
+    position: absolute;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+    
+}
+
+.toggle-button .bar{
+height: 3px;
+width: 100%;
+background-color: black;
+border-radius: 10px;
+
+}
+
+/* Styles for toggle button  Ends */
+
+/* End Styles for Nav bar */
 
 
 
@@ -76,45 +142,6 @@ h1.logo{
     }
 
 /* Styles more main image end */
-
-
-
-
-
-
-/* Navigation Style Start */
-header nav{
-    float: right;
-}
-
-header nav h2{
-    text-indent: -10000px;
-    height: 0;
-    margin: 0;
-}
-
-header nav li{
-    float: left;
-    list-style-type: none;
-    margin: 10px 20px;
-}
-
-header nav li a{
-    text-decoration: none;
-    color: #333;
-    font-size: 18px;
-}
-
-#navBarSection{
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color: white;
-    opacity: 80%;
-    
-  }
-/* Navigation Style Ends */
-  
 
   
 
@@ -216,21 +243,90 @@ footer img{
 }
 /* Footer Style End */
 
+
 /* Media Queries */
+/* If our screen is less than 400px code will run */
+@media (max-width: 520px) {
 
-/* Extra small devices (phones, 600px and down)
-@media only screen and (max-width: 600px) {...}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-/* @media only screen and (min-width: 600px) {...} */
-
-/* Medium devices (landscape tablets, 768px and up) */
-/* @media only screen and (min-width: 768px) {...} */
-
-/* Large devices (laptops/desktops, 992px and up) */
-/* @media only screen and (min-width: 992px) {...} */
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-/* @media only screen and (min-width: 1200px) {...} */ 
-
-
+    /* Gives style to the hamburger bars */
+    a.toggle-button .bar{
+    background-color: white;
+    cursor: pointer;
+    }
+    
+    .navbar {
+        background-color: black;
+      
+    }
+    
+    /* .nav-social{
+        background-color: black;
+    
+    }
+    
+        .nav-social li a{
+            display: none;
+        } */
+    
+       .navbar .brand-title{
+         padding-right: 300px;
+         color: white;
+    
+        }
+    
+    
+        .navbar {
+            flex-direction: column;
+            align-items: flex-start;
+           
+        }
+    
+        .toggle-button {
+            display: flex;
+            cursor: pointer;
+            margin-top: 15px;
+        }
+    
+        .navbar-links {
+            display: none;
+            width: 100%;
+        }
+    
+        .navbar-links ul {
+            width: 100%;
+            flex-direction: column;
+        }
+    
+        .navbar-links ul li {
+            text-align: center;
+            
+        }
+    
+        .navbar-links ul li a {
+            padding: .5rem 1rem;
+             color: white;
+             
+        }
+    
+        /* The Active enables the nav bar to toggle */
+        .navbar-links.active {
+            display: flex;
+            
+        }
+        
+    }
+    /* Extra small devices (phones, 600px and down)
+    @media only screen and (max-width: 600px) {...}
+    
+    /* Small devices (portrait tablets and large phones, 600px and up) */
+    /* @media only screen and (min-width: 600px) {...} */
+    
+    /* Medium devices (landscape tablets, 768px and up) */
+    /* @media only screen and (min-width: 768px) {...} */
+    
+    /* Large devices (laptops/desktops, 992px and up) */
+    /* @media only screen and (min-width: 992px) {...} */
+    
+    /* Extra large devices (large laptops and desktops, 1200px and up) */
+    /* @media only screen and (min-width: 1200px) {...} */ 
+    
