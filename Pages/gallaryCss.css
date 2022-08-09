@@ -15,6 +15,16 @@ body{
     align-items: center;
 }
 
+.scrolled  {
+  
+    background-color: white;
+    opacity: 80%;
+    color: black;
+     
+    transition: .4s ease-out ;
+}
+
+
 
 .brand-title {
     font-size: 1.5rem;
@@ -26,8 +36,9 @@ body{
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: white;
-    opacity: 80%;
+    color: white;
+    /* background-color: white;
+    opacity: 80%; */
     
   }
 

@@ -1,5 +1,9 @@
 let navBar = document.querySelector("#navBarSection")
 
+
+// const carousel = new bootstrap.Carousel('#myCarousel')
+
+
 // Function that enables scrolling functionality
 window.addEventListener("scroll", function () {
     const scrolled = window.scrollY;
@@ -13,6 +17,25 @@ window.addEventListener("scroll", function () {
 
 
 // Function that enables Carousel functionality
+// let slideIndex = 0;
+// showSlides();
+
+// function showSlides() {
+//   let i;
+//   let slides = document.getElementsByClassName("mySlides");
+//   for (i = 0; i < slides.length; i++) {
+//     slides[i].style.display = "none";
+//   }
+//   slideIndex++;
+//   if (slideIndex > slides.length) {slideIndex = 1}
+//   slides[slideIndex-1].style.display = "block";
+//   setTimeout(showSlides, 4000); // Change image every 2 seconds
+// }
+
+
+
+
+
 let slideIndex = 0;
 showSlides();
 
@@ -25,8 +48,14 @@ function showSlides() {
   slideIndex++;
   if (slideIndex > slides.length) {slideIndex = 1}
   slides[slideIndex-1].style.display = "block";
-  setTimeout(showSlides, 4000); // Change image every 2 seconds
+  setTimeout(showSlides, 3000); // Change image every 2 seconds
 }
+
+
+
+
+
+
 
 
 // Function that enables toggle functionality

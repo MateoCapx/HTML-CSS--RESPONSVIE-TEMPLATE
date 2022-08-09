@@ -6,6 +6,7 @@
     <title>Your Restaurant</title>
     <link href="style.css" rel="stylesheet">
     <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
@@ -13,7 +14,36 @@
 </head>
 
 <body>
+    <!-- Start of slideshow -->
 
+    <div class="slideshow">
+        <!--    <div class="parallax">    Need to Add Parallax feature to slideshow  -->
+        <div class="mySlides fade">
+            <img src="img/eggroll.jpg" alt="Welcome to Resto" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="img/daan-evers-tKN1WXrzQ3s-unsplash.jpg" alt="Welcome to Resto" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="img/Banner.jpg" alt="Welcome to Resto" style="width:100%">
+        </div>
+
+        <br>
+    </div>
+    <!-- Text & Button above image -->
+    <div class="centered">
+        <h1> Awesome Food & Great Laughs </h1>
+        <button id="viewMenuBtn" href="menu"> View Menu </button>
+    </div>
+
+      <!-- END of slideshow -->
+
+
+      
+
+         <!-- Start of Navigation -->
     <header class="navBarHeader" id="navBarSection">
         <div class="nav-social">
             <ul>
@@ -46,34 +76,9 @@
         </nav>
         </div>
     </header>
+  <!-- END of Navigation -->
 
-    <!-- Start homepage content -->
 
-    <div class="slideshow">
-        <!--    <div class="parallax">    Need to Add Parallax feature to slideshow  -->
-
-        <div class="mySlides fade">
-            <img src="img/eggroll.jpg" alt="Welcome to Resto" style="width:100%">
-        </div>
-
-        <div class="mySlides fade">
-            <img src="img/daan-evers-tKN1WXrzQ3s-unsplash.jpg" alt="Welcome to Resto" style="width:100%">
-        </div>
-
-        <div class="mySlides fade">
-            <img src="img/Banner.jpg" alt="Welcome to Resto" style="width:100%">
-        </div>
-
-        <br>
-    </div>
-
-    <!-- </div> -->
-
-    <!-- Text & Button above image -->
-    <div class="centered">
-        <h1> Awesome Food & Great Laughs </h1>
-        <button id="viewMenuBtn" href="menu"> View Menu </button>
-    </div>
 
 
     <div class="container text-center">
@@ -98,6 +103,11 @@
             <a href="Pages/menu.html"> View Our Menu </a>
         </div>
     </div>
+
+
+
+
+
 
     <!-- <video autoplay muted loop>
                 <source src="img/Latte - 122508 (1).mp4" type="video/mp4">
@@ -247,42 +257,9 @@
 </body>
 <script src="https://kit.fontawesome.com/64e6a03114.js" crossorigin="anonymous"></script>
 <script src="sandbox.js"></script>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
 
 </html>
-
-
-
-
-
-
-
-
-
-
-
-<!-- 
-
-
-Carousel
-
-<div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active" data-bs-interval="10000">
-        <img src="..." class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item" data-bs-interval="2000">
-        <img src="..." class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="..." class="d-block w-100" alt="...">
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div> -->

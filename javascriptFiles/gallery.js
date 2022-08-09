@@ -1,12 +1,17 @@
-let navBar = document.querySelector("#navBarSection")
+const navBar = document.getElementsByClassName('navBarHeader')[0]
+const brandTitle = document.getElementsByClassName('brand-title')[0]  
 
 // Function that enables scrolling functionality
 window.addEventListener("scroll", function () {
     const scrolled = window.scrollY;
-    if (scrolled === 100) {
-        navBar.classList.replace('navBarSection', 'hello')
-        console.log(navBar.classList)
+    if (scrolled > 20) {
+        navBar.classList.add("scrolled")
+         
+
+    }else{
+        navBar.classList.remove("scrolled")
     }
+   
     console.log(scrolled)
 
 })
