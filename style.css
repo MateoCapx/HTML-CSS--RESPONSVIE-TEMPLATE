@@ -1,18 +1,34 @@
 *{
     box-sizing: border-box;
 }
+
+
+
+
 body{
     font-family: Georgia;
     margin: 0;
    padding: 0;
 }
 
-.wrapper{
+.navbar{
     width: 100%;
     max-width: 1180px;
     padding: 0 10px;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
+
+.brand-title{
+font-size: 1.5rem;
+margin-top: .5rem;
+
+
+}
+
 
 h1.logo{
     background-image: url(    );
@@ -54,27 +70,62 @@ h1.logo{
 
 
 /* Navigation Style Start */
-header nav{
-    float: right;
+
+
+
+.navbar-links {
+    height: 100%;
 }
 
-header nav h2{
-    text-indent: -10000px;
-    height: 0;
+.navbar-links ul {
+    display: flex;
     margin: 0;
+    padding: 0;
 }
 
-header nav li{
-    float: left;
-    list-style-type: none;
-    margin: 10px 20px;
+.navbar-links li {
+    list-style: none;
 }
 
-header nav li a{
+.navbar-links li a {
+    display: block;
     text-decoration: none;
-    color: #333;
-    font-size: 18px;
+    color: black;
+    padding: 1rem;
 }
+
+.navbar-links li:hover {
+    background-color: #555;
+}
+/* header nav li:hover{
+  background-color: #555;
+} */
+
+
+/* Styles for toggle button  */
+
+.toggle-button{
+    position: absolute;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+
+}
+
+.toggle-button .bar{
+height: 3px;
+width: 100%;
+background-color: black;
+border-radius: 10px;
+
+}
+
+/* Styles for toggle button  Ends */
+
+
 
 #navBarSection{
     position: fixed;
@@ -425,6 +476,69 @@ footer img{
 
 /* Media Queries */
 
+/* If our screen is less than 400px code will run */
+@media (max-width: 520px) {
+
+    header nav li:hover{
+  background-color: #555;
+  width: 100%;
+    margin-top: 0;
+}
+
+/* Gives style to the hamburger bars */
+a.toggle-button .bar{
+background-color: white;
+
+}
+
+.navbar {
+    background-color: black;
+  
+}
+
+.nav-social{
+    background-color: black;
+
+}
+
+    .nav-social li a{
+        display: none;
+    }
+
+
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .toggle-button {
+        display: flex;
+    }
+
+    /* .navbar-links {
+        display: none;
+        width: 100%;
+    } */
+
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .navbar-links ul li {
+        text-align: center;
+    }
+
+    .navbar-links ul li a {
+        padding: .5rem 1rem;
+         color: white;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+    
+}
 /* Extra small devices (phones, 600px and down)
 @media only screen and (max-width: 600px) {...}
 

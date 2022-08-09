@@ -11,6 +11,7 @@ window.addEventListener("scroll", function () {
 
 })
 
+
 // Function that enables Carousel functionality
 let slideIndex = 0;
 showSlides();
@@ -26,3 +27,20 @@ function showSlides() {
   slides[slideIndex-1].style.display = "block";
   setTimeout(showSlides, 4000); // Change image every 2 seconds
 }
+
+
+// Function that enables toggle functionality
+let toggle = document.querySelector(".toggle-button ") 
+let toggleLinks =document.querySelector(".")
+// .onclick = function() {
+// console.log(toggle)
+
+
+// }
+
+toggle.addEventListener('click',function(){
+
+  toggle.classList.toggle('active')
+
+
+})
