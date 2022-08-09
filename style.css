@@ -2,9 +2,6 @@
     box-sizing: border-box;
 }
 
-
-
-
 body{
     font-family: Georgia;
     margin: 0;
@@ -22,23 +19,10 @@ body{
 }
 
 
-.brand-title{
-font-size: 1.5rem;
-margin-top: .5rem;
-
-
+.brand-title {
+    font-size: 1.5rem;
+    margin: .5rem;
 }
-
-
-h1.logo{
-    background-image: url(    );
-    background-repeat: no-repeat;
-    width: 100px;
-    text-indent: -10000px;
-    float: left;
-}
-
-
 
 /* Social Meida links  */
 .nav-social{
@@ -85,6 +69,7 @@ h1.logo{
 
 .navbar-links li {
     list-style: none;
+    cursor: pointer;
 }
 
 .navbar-links li a {
@@ -92,14 +77,12 @@ h1.logo{
     text-decoration: none;
     color: black;
     padding: 1rem;
+    cursor: pointer;
 }
 
 .navbar-links li:hover {
     background-color: #555;
 }
-/* header nav li:hover{
-  background-color: #555;
-} */
 
 
 /* Styles for toggle button  */
@@ -112,7 +95,7 @@ h1.logo{
     justify-content: space-between;
     width: 30px;
     height: 21px;
-
+    
 }
 
 .toggle-button .bar{
@@ -479,16 +462,10 @@ footer img{
 /* If our screen is less than 400px code will run */
 @media (max-width: 520px) {
 
-    header nav li:hover{
-  background-color: #555;
-  width: 100%;
-    margin-top: 0;
-}
-
 /* Gives style to the hamburger bars */
 a.toggle-button .bar{
 background-color: white;
-
+cursor: pointer;
 }
 
 .navbar {
@@ -496,29 +473,38 @@ background-color: white;
   
 }
 
-.nav-social{
+/* .nav-social{
     background-color: black;
 
 }
 
     .nav-social li a{
         display: none;
+    } */
+
+   .navbar .brand-title{
+     padding-right: 300px;
+     color: white;
+
     }
 
 
     .navbar {
         flex-direction: column;
         align-items: flex-start;
+       
     }
 
     .toggle-button {
         display: flex;
+        cursor: pointer;
+        margin-top: 15px;
     }
 
-    /* .navbar-links {
+    .navbar-links {
         display: none;
         width: 100%;
-    } */
+    }
 
     .navbar-links ul {
         width: 100%;
@@ -527,15 +513,19 @@ background-color: white;
 
     .navbar-links ul li {
         text-align: center;
+        
     }
 
     .navbar-links ul li a {
         padding: .5rem 1rem;
          color: white;
+         
     }
 
+    /* The Active enables the nav bar to toggle */
     .navbar-links.active {
         display: flex;
+        
     }
     
 }

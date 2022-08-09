@@ -30,17 +30,13 @@ function showSlides() {
 
 
 // Function that enables toggle functionality
-let toggle = document.querySelector(".toggle-button ") 
-let toggleLinks =document.querySelector(".")
-// .onclick = function() {
-// console.log(toggle)
+const toggleButton = document.getElementsByClassName('toggle-button')[0]
+const navbarLinks = document.getElementsByClassName('navbar-links')[0]
+const socialLinks = document.querySelector(".nav-social")
 
 
-// }
-
-toggle.addEventListener('click',function(){
-
-  toggle.classList.toggle('active')
-
-
+toggleButton.addEventListener('click', () => {
+   navbarLinks.classList.toggle('active')
+   socialLinks.classList.toggle('active')
+  console.log("YERRRRPPRPRPRP")
 })
