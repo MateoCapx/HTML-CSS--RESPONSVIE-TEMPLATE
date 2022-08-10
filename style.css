@@ -216,12 +216,12 @@ width: 100%;
 
     
 /* Styles for parallax */
-.parallaxVideo{
-    /* background-image: url('img/Restaurant\ -\ 1192.mp4'); */
+.parallax1{
+    background-image: url('img/rajat-sarki-VU6fToUGJhs-unsplash.jpg');
      /* Set a specific height */
      
-     width: 50%;
-    
+     min-height: 100vh;
+    height: 100px;
      /* Create the parallax scrolling effect */
      background-attachment: fixed;
      background-position: center;
@@ -229,22 +229,6 @@ width: 100%;
      background-size: cover;
      background-color: black;
     }
-
-.parallaxVideo video{
-    width: 200%;
-    height: 700px;
-    top:0;
-    left: 0;
-  background-color: black;
-  /* object-fit: cover; */
-  object-position: center;
-  
-
-}
-
-
-
-
 
 
 /* Our Team Section Styles */
