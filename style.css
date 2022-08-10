@@ -176,17 +176,19 @@ width: 100%;
 
 #Section1 a{
     text-decoration: none;
-    color: gold;
-    font-size: 18px;
-    width: 224px;
+    color: black;
+    font-size: 28px;
+    width: 578px;
     padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
 
 }
 
 /* Opening Hours Section Styles  */
  #openingHoursDiv{
-    margin-bottom: 50px;
-    margin-top: 60px;
+   padding-top: 80px;
+  
     color: black;
 }
 
@@ -200,11 +202,11 @@ width: 100%;
 
 
 
-/* Styles for parallax */
+/*  Start Styles for parallax */
 .parallax{
     background-image: url('img/WeeklyMenu.jpg');
      /* Set a specific height */
-     min-height: 100vh;
+     min-height: 70vh;
     
      /* Create the parallax scrolling effect */
      background-attachment: fixed;
@@ -215,13 +217,13 @@ width: 100%;
     
 
     
-/* Styles for parallax */
+
 .parallax1{
     background-image: url('img/rajat-sarki-VU6fToUGJhs-unsplash.jpg');
      /* Set a specific height */
      
-     min-height: 100vh;
-    height: 100px;
+     min-height: 60vh;
+  
      /* Create the parallax scrolling effect */
      background-attachment: fixed;
      background-position: center;
@@ -229,6 +231,8 @@ width: 100%;
      background-size: cover;
      background-color: black;
     }
+
+/* END Styles for parallax */
 
 
 /* Our Team Section Styles */
@@ -407,7 +411,7 @@ font-weight: 900;
 /* Footer Style Start */
 footer{
     background: #3b3b3b;
-    margin-top: 100px;
+    margin-top: 50px;
     padding: 30px 0;
 }
 
@@ -419,11 +423,11 @@ footer:after{
 
 footer ul{
     float: left;
-    padding: 0;
     list-style-type: none;
     color: #eee;
     width: 23%;
     margin-right: 2%;
+    text-align: center;
 }
 
 footer li{

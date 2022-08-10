@@ -186,7 +186,7 @@ border-radius: 10px;
 /* Footer Style Start */
 footer{
     background: #3b3b3b;
-    margin-top: 100px;
+    margin-top: 50px;
     padding: 30px 0;
 }
 
@@ -203,6 +203,7 @@ footer ul{
     color: #eee;
     width: 23%;
     margin-right: 2%;
+    text-align: center;
 }
 
 footer li{
