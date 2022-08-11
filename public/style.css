@@ -1,0 +1,550 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Georgia;
+    margin: 0;
+   padding: 0;
+}
+.centered a {
+   text-align: center;
+   text-decoration: none;
+   color: white;
+  font-size: 25px;
+}
+
+.centered a:hover{
+background-color: burlywood;
+color: white;
+
+}
+.navbar{
+    width: 100%;
+    max-width: 1180px;
+    padding: 0 10px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.brand-title {
+    font-size: 1.5rem;
+    margin: .5rem;
+}
+
+/* Social Meida links  */
+.nav-social{
+    float: right;
+    width: 100%;
+    position: relative;
+    transition: all 600ms linear;
+    top: 10px;
+}
+
+.nav-social ul {
+    float: right;
+    list-style: none;
+}
+
+.nav-social li a {
+    color: black;
+    font-size: 14px;
+  
+}
+
+.nav-social li {
+    float: left;
+    padding: 10px;
+}
+/* Social Meida links ENDS */
+
+
+
+
+/* Navigation Style Start */
+
+
+
+.navbar-links {
+    height: 100%;
+}
+
+.navbar-links ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-links li {
+    list-style: none;
+    cursor: pointer;
+}
+
+.navbar-links li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.navbar-links li:hover {
+    background-color: #555;
+}
+
+
+/* Styles for toggle button  */
+
+.toggle-button{
+    position: absolute;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+    
+}
+
+.toggle-button .bar{
+height: 3px;
+width: 100%;
+background-color: black;
+border-radius: 10px;
+
+}
+
+/* Styles for toggle button  Ends */
+
+
+
+#navBarSection{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    opacity: 80%;
+    
+  }
+
+  
+/* Start of Styles for carousel section */
+
+  /* Slideshow container */
+  .slideshow-container {
+    max-width: 100px;
+    position: relative;
+    margin: auto;
+  
+
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+/* End of Styles for carousel section */
+
+
+  
+
+
+
+
+
+  
+
+.hello{
+    background-color: green;
+}
+
+/* Navigation Style end */
+
+
+/* Section 1 Styles */
+
+#Section1{
+    padding-top: 50px;
+}
+#Section1 img{
+width: 100%;
+}
+
+#Section1 a{
+    text-decoration: none;
+    color: black;
+    font-size: 28px;
+    width: 578px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+
+}
+
+/* Opening Hours Section Styles  */
+ #openingHoursDiv{
+   padding-top: 80px;
+  
+    color: black;
+}
+
+#openingHoursTex, h2{
+    color: black;
+    z-index: 1;
+}
+
+
+/* Ending for Opening Hours Section Styles */
+
+
+
+/*  Start Styles for parallax */
+.parallax{
+    background-image: url('img/WeeklyMenu.jpg');
+     /* Set a specific height */
+     min-height: 70vh;
+    
+     /* Create the parallax scrolling effect */
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+    }
+    
+
+    
+
+.parallax1{
+    background-image: url('img/rajat-sarki-VU6fToUGJhs-unsplash.jpg');
+     /* Set a specific height */
+     
+     min-height: 60vh;
+  
+     /* Create the parallax scrolling effect */
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-color: black;
+    }
+
+/* END Styles for parallax */
+
+
+/* Our Team Section Styles */
+#ourTeamSection, .mainText{
+    text-align: center;
+    margin-top: 80px;
+}
+
+#ourTeamSection, p{
+    font-size: 16px;
+    line-height: 24px;
+    padding-bottom: 10px;
+}
+
+ .chefImages img{
+    width: 50%;
+    border-radius: 100%;
+    
+}
+.chefImages{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+/* Weekly Deals Section */
+.weeklyDealsSection h1{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.weeklyDeals {
+text-align: center;
+font-size: large;
+font-style: italic;
+color: black;
+font-weight: 900;
+}
+
+.weeklyDeals span {
+    text-align: left;
+    }
+
+
+#main-banner, #main-banner img{
+    width: 100%;
+}
+
+
+/* Main Menu Style end */
+#home-menu h2{
+    background-image: url(images/menu-head.png);
+    background-repeat: no-repeat;
+    width: 156px;
+    height: 74px;
+    text-indent: -10000px;
+    margin: 0 auto;
+    position: relative;
+    top: -4px;
+}
+
+/* style text above banner image */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: whitesmoke;
+    text-align: center;
+
+    margin-top: 50px;
+}
+
+.centered h1{
+    font-size: 70px;
+    letter-spacing: 0.1em;
+    font-weight: bold;
+}
+
+
+#home-menu ul{
+    padding: 0;
+    list-style-type: none;
+}
+
+/* Adds space to bottom of main menu */
+#home-menu ul:after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+#home-menu li{
+    float: left;
+    width: 42%;
+    padding: 0;
+    margin: 20px 0 20px 8%;
+}
+
+#home-menu li:nth-child(odd){
+    margin: 20px 8% 20px 0;
+}
+
+
+.dish{
+    float: left;
+    color: #555;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    background: #fff;
+    padding-right: 15px;
+}
+
+.price{
+    float: right;
+    color: #555;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    background: #fff;
+    padding-left: 15px;
+}
+
+.description{
+    clear: both;
+    display: block;
+    color: #999;
+    font-style: italic;
+    font-size: 14px;
+    padding-top: 10px;
+    border-top: 1px solid #ddd;
+    position: relative;
+    top: -8px;
+}
+
+/* Adds styles to bottom section with images, description & price */
+#featured{
+    margin-top: 100px;
+}
+
+#featured ul{
+    padding: 0;
+}
+
+#featured li{
+    float: left;
+    width: 23%;
+    margin: 1%;
+    list-style-type: none; 
+}
+
+#featured li img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#featured li a{
+    color: #333;
+    text-decoration: none;
+    float: left;
+}
+
+#featured li span{
+    float: right;
+    color: #333;
+}
+
+#featured ul:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+/* Ends styles to bottom section with images, description & price */
+
+
+/* Footer Style Start */
+footer{
+    background: #3b3b3b;
+    margin-top: 50px;
+    padding: 30px 0;
+}
+
+footer:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+footer ul{
+    float: left;
+    list-style-type: none;
+    color: #eee;
+    width: 23%;
+    margin-right: 2%;
+    text-align: center;
+}
+
+footer li{
+    margin: 10px 0;
+}
+
+footer a{
+    color: #eee;
+    text-decoration: none;
+}
+
+footer img{
+    width: 80px;
+
+}
+/* Footer Style End */
+
+/* Media Queries */
+
+/* If our screen is less than 520px code will run */
+@media (max-width: 520px) {
+
+/* Gives style to the hamburger bars */
+a.toggle-button .bar{
+background-color: white;
+cursor: pointer;
+}
+
+.navbar {
+    background-color: black;
+  
+}
+
+/* .nav-social{
+    background-color: black;
+
+}
+
+    .nav-social li a{
+        display: none;
+    } */
+
+   .navbar .brand-title{
+     padding-right: 300px;
+     color: white;
+
+    }
+
+
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+       
+    }
+
+    .toggle-button {
+        display: flex;
+        cursor: pointer;
+        margin-top: 15px;
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .navbar-links ul li {
+        text-align: center;
+        
+    }
+
+    .navbar-links ul li a {
+        padding: .5rem 1rem;
+         color: white;
+         
+    }
+
+    /* The Active enables the nav bar to toggle */
+    .navbar-links.active {
+        display: flex;
+        
+    }
+    
+}
+/* Extra small devices (phones, 600px and down)
+@media only screen and (max-width: 600px) {...}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {...} */
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) {...} */
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {...} */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {...} */ 
+
+
+
+
+ 
+ 
