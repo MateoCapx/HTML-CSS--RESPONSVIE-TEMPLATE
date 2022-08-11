@@ -1,0 +1,23 @@
+{
+  "name": "html-css--responsvie-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sandbox.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MateoCapx/HTML-CSS--RESPONSVIE-TEMPLATE.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MateoCapx/HTML-CSS--RESPONSVIE-TEMPLATE/issues"
+  },
+  "homepage": "https://github.com/MateoCapx/HTML-CSS--RESPONSVIE-TEMPLATE#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}

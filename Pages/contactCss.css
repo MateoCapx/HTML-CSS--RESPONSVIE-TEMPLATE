@@ -154,8 +154,8 @@ border-radius: 10px;
 margin-top: 100px;
 
 }
-
-#contactForm input[type="text"] {
+ 
+#contactForm input {
  
     width: 50%;
     margin-bottom: 20px;

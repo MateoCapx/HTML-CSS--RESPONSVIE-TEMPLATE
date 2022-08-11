@@ -127,7 +127,7 @@ border-radius: 10px;
 .parallax{
     background-image: url('../img/gallery6.jpg');
      /* Set a specific height */
-     min-height: 100vh;
+     min-height: 80vh;
     
      /* Create the parallax scrolling effect */
      background-attachment: fixed;
@@ -139,7 +139,7 @@ border-radius: 10px;
 .parallaxDessert{
     background-image: url('../img/Dessert.jpg');
     /* Set a specific height */
-    min-height: 100vh;
+    min-height: 60vh;
    
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -152,7 +152,7 @@ border-radius: 10px;
 .parallaxDrink{
     background-image: url('../img/gallary4.jpg');
     /* Set a specific height */
-    min-height: 100vh;
+    min-height: 60vh;
    
     /* Create the parallax scrolling effect */
     background-attachment: fixed;

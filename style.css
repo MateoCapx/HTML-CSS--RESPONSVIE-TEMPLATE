@@ -7,7 +7,18 @@ body{
     margin: 0;
    padding: 0;
 }
+.centered a {
+   text-align: center;
+   text-decoration: none;
+   color: black;
+  font-size: 25px;
+}
 
+.centered a:hover{
+background-color: burlywood;
+color: black;
+
+}
 .navbar{
     width: 100%;
     max-width: 1180px;
@@ -302,7 +313,7 @@ font-weight: 900;
     color: whitesmoke;
     text-align: center;
 
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .centered h1{
@@ -447,7 +458,7 @@ footer img{
 
 /* Media Queries */
 
-/* If our screen is less than 400px code will run */
+/* If our screen is less than 520px code will run */
 @media (max-width: 520px) {
 
 /* Gives style to the hamburger bars */
