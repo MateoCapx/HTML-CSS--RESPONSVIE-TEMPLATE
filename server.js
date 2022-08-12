@@ -1,7 +1,5 @@
 const express = require('express');
-const accountSid =  "AC8d3cc94ff29d9e21a15eba794cebbffc";
-const authToken =  "9cc02597548d7a1315743d2e8c2d2db7";
-const client = require('twilio')(accountSid, authToken);
+
 
 
 
@@ -17,6 +15,8 @@ app.use(express.static('public'));
 // Use apiRoutes
 // app.use('/api', apiRoutes);
 app.use('/', htmlRoutes);
+
+// Route used to connect to twilio API
 app.post('/twilio',(req,res)=>{
   const textMessage = `Name:${req.body.fname}
     Email:${req.body.Email}
@@ -37,6 +37,7 @@ app.post('/twilio',(req,res)=>{
   }).catch( err=> res.json(err))
 
 } )
+// END Route used to connect to twilio API
 
 app.listen(PORT, () => {
   console.log(`API server now on port ${PORT}!`);

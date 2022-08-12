@@ -184,17 +184,17 @@ margin-top: 100px;
 
 
 
- /* .parallaxMap{
-    background-image: url(' '); */
+ .parallax2{
+    background-image: url('../img/today.jpg '); 
      /* Set a specific height */
-     /* min-height: 100vh;  */
+     min-height: 100vh; 
     
      /* Create the parallax scrolling effect */
-     /* background-attachment: fixed;
+     background-attachment: fixed;
      background-position: center;
      background-repeat: no-repeat;
      background-size: cover;
-    } */
+    }
 
 
 
