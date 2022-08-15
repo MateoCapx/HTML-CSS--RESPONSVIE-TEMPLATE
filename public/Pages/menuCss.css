@@ -386,9 +386,41 @@ footer img{
         }
         
     }
-    /* Extra small devices (phones, 600px and down)
-    @media only screen and (max-width: 600px) {...}
+
+
+    /* Extra small devices (phones, 600px and down) */
+    @media only screen and (max-width: 620px) {
+
+       .footer{
+           text-align: center;
+       }
+
+      #home-menu ul{
+          padding-left: 10px;
+      }
+
+      #home-menu li {
+        float: left;
+        width: 42%;
+        padding: 0;
+        margin: 24px 0 20px 8%;
+    }
+
+    #home-menu li:nth-child(odd) {
+        margin: 24px 8% 10px 0;
+        text-decoration: none;
+        list-style: none;
+    }
+
+    span .description{
+        background-color: black;
+    }
+    }
     
+
+
+
+
     /* Small devices (portrait tablets and large phones, 600px and up) */
     /* @media only screen and (min-width: 600px) {...} */
     

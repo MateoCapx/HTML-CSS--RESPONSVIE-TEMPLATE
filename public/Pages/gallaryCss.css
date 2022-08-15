@@ -222,6 +222,14 @@ footer img{
 /* Footer Style End */
 
 /* Media Queries */
+
+
+@media (max-width: 440px) {
+    footer{
+        background-color: #000;
+    }
+
+}
 /* If our screen is less than 400px code will run */
 @media (max-width: 520px) {
 
