@@ -18,5 +18,9 @@ router.get('/menu', (req,res)=>{
     res.sendFile(path.join(__dirname, '../menu.html'));
 })
 
+router.get('*', (req, res) => {
+      res.sendFile(path.join(__dirname, '../index.html'));
+    });
+  
 
 module.exports= router;

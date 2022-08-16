@@ -7,6 +7,20 @@ body{
     margin: 0;
    padding: 0;
 }
+
+/* Main Parallax image */
+.parallaxMain{
+    background-image: url('img/header.jpg');
+     /* Set a specific height */
+     min-height: 100vh;
+    
+     /* Create the parallax scrolling effect */
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+    }
+    
 .centered a {
    text-align: center;
    text-decoration: none;
