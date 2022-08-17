@@ -214,11 +214,11 @@ width: 100%;
  #openingHoursDiv{
    padding-top: 80px;
   
-    color: black;
+    color: white;
 }
 
 #openingHoursTex, h2{
-    color: black;
+    color: white;
     z-index: 1;
 }
 
@@ -229,9 +229,9 @@ width: 100%;
 
 /*  Start Styles for parallax */
 .parallax{
-    background-image: url('img/WeeklyMenu.jpg');
+    background-image: url('img/jj.jpg');
      /* Set a specific height */
-     min-height: 70vh;
+     min-height: 50vh;
     
      /* Create the parallax scrolling effect */
      background-attachment: fixed;
@@ -244,7 +244,7 @@ width: 100%;
     
 
 .parallax1{
-    background-image: url('img/rajat-sarki-VU6fToUGJhs-unsplash.jpg');
+    background-image: url('img/lukas-bee-RnnCdg63KBY-unsplash.jpg');
      /* Set a specific height */
      
      min-height: 60vh;
@@ -542,8 +542,145 @@ cursor: pointer;
     }
     
 }
-/* Extra small devices (phones, 600px and down)
-@media only screen and (max-width: 600px) {...}
+
+ /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+ body{
+     max-width: 600%;
+ }
+/* Gives style to the hamburger bars */
+a.toggle-button .bar{
+    background-color: white;
+    cursor: pointer;
+    }
+    
+    .navbar {
+        background-color: black;
+         
+      
+    }
+    
+    /* .nav-social{
+        background-color: black;
+    
+    }
+    
+        .nav-social li a{
+            display: none;
+        } */
+    
+       .navbar .brand-title{
+        padding-right:437px; ;
+         color: white;
+    
+        }
+    
+    
+        .navbar {
+            flex-direction: column;
+            align-items: flex-start;
+            
+           
+        }
+    
+        .toggle-button {
+            display: flex;
+            cursor: pointer;
+            margin-top: 15px;
+        }
+    
+        .navbar-links {
+            display: none;
+            width: 100%;
+        }
+    
+        .navbar-links ul {
+            width: 100%;
+            flex-direction: column;
+        }
+    
+        .navbar-links ul li {
+            text-align: center;
+            
+        }
+    
+        .navbar-links ul li a {
+            padding: .5rem 1rem;
+             color: white;
+             
+        }
+    
+        /* The Active enables the nav bar to toggle */
+        .navbar-links.active {
+            display: flex;
+            
+        }
+        .parallaxMain{
+            background-image: url('img/header.jpg');
+             /* Set a specific height */
+             min-height: 100vh;
+             max-width: 600px;
+             /* Create the parallax scrolling effect */
+             background-attachment: fixed;
+             background-position: center;
+             background-repeat: no-repeat;
+             background-size: cover;
+            }
+            
+        .centered a {
+           text-align: center;
+           text-decoration: none;
+           color: white;
+          font-size: 25px;
+        }
+        
+        .centered a:hover{
+        background-color: burlywood;
+        color: white;
+        
+        }
+        /* Weekly Deals Section */
+.weeklyDealsSection h1{
+    text-align: center;
+    padding-bottom: 50px;
+    color:black ;
+}
+
+.weeklyDeals {
+text-align: center;
+font-size: large;
+font-style: italic;
+color:black ;
+font-weight: 900;
+}
+
+
+
+#main-banner, #main-banner img{
+    width: 100%;
+}
+     footer{
+         margin-top: 5px;
+     }
+
+     footer ul {
+text-align: center;
+     }
+
+     .parallax{
+        background-image: url('img/louis-hansel-wOISTbCpUCc-unsplash.jpg');
+         /* Set a specific height */
+         min-height: 50vh;
+        
+         /* Create the parallax scrolling effect */
+         background-attachment: fixed;
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: cover;
+        }
+        
+}
+
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 /* @media only screen and (min-width: 600px) {...} */
